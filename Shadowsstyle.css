@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 150px;
+    height: 150px;
+    margin-right: 100px;
+    border-radius: 10%;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+}
+.button1{
+    box-shadow: inset 2px 2px 2px rgb(185, 184, 184),
+    inset -3px -3px 3px rgb(185, 184, 184);
+
+}
+.button2{
+    box-shadow: 5px 0px 5px blue,       
+                -5px 0px 5px green,      
+                0px 5px 5px red,    
+                0px -5px 5px yellow; 
+}
+.button3{
+    box-shadow: 
+    inset -3px -3px 3px rgb(185, 184, 184),
+    0px 0px 0px 15px rgb(251, 237, 184);
+}
